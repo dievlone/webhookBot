@@ -9,7 +9,7 @@ def avatar_url():
     return "https://cdn.discordapp.com/avatars/620838537742385163/87268e7934f8da3add6bd5621ee610d5.webp?size=128"
 
 def send_webhook():
-    url = "https://discordapp.com/api/webhooks/699401809206313061/5koJESNpTWnxS2Gu8ZokSGY0Hgd8C8uFDXvTXqsZJFQdfbqvXqDSZqmy1lbfoAB0aUSX"
+    url = "https://discordapp.com/api/webhooks/699401809206313061/5koJESNpTWnxS2Gu8ZokSGY0Hgd8C8uFDXvTgXqsZJFQdfbqvXqDSZqmy1lbfoAB0aUSX"
     webhook = Webhook.from_url(url, adapter=RequestsWebhookAdapter())
     embed = Embed(title="Successfully checked out!", description='Motion Logo Hooded Sweatshirt', color=3329330)
     embed.set_thumbnail(url="http://assets.supremenewyork.com/185573/ma/JfeTzLouyDg.jpg")\
